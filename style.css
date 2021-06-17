@@ -1,0 +1,91 @@
+/* Our default values set as CSS variables */
+:root {
+  --color-bg: #f9faff;
+  --color-text-primary: #828282;
+  --color-text-secondary: #333333;
+  --color-primary: #928DF1;
+  --color-secondary: #FDC435;
+}
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-text-secondary);
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+img{
+  width: auto;
+  max-width: 100%;
+}
+
+.header-content{
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+  background-color:  var(--color-primary);
+}
+
+.header.logo{
+  max.width: 40px;
+}
+
+.header-links{
+  display:  flex;
+}
+
+.header-links li a{
+  color: white;
+  padding: 20px;
+}
+
+.about-img{
+  max.width: 420px;
+}
+
+.about-img img{
+  border-radius: 50%;
+  border: 5px solid var(--color-primary);
+}
+
+.footer{
+  background-image: url('assets/footer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 350px;
+  margin: 0 !important;
+}
+
+.instagram {
+  background-image: url('assets/social/github.png');
+}
